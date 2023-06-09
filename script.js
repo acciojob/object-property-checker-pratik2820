@@ -3,13 +3,11 @@ const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 function hasKey(key) {
   //   write your code here
 	for(key in sampleObject){
-		if(key=="red" || key=="green" || key=="white"){
+		if(key=="#FF0000"|| key== "#00FF00" || key== "#FFFFFF"){
 			return true;
 		}
-		else{
-			return false;
-		}
 	}
+	return false;
 	
 }
 
