@@ -6,8 +6,11 @@ function hasKey(key) {
 		if(key=="red" || key=="green" || key=="white"){
 			return true;
 		}
+		else{
+			return false;
+		}
 	}
-	return false;
+	
 }
 
 // Do not change the code below
